@@ -102,3 +102,11 @@ After adding your settings you have to register the Custom Biome to use it:
     value(float, -2 - +2 ?) = how tall or flat the Biome is generated <br>
     Negative: water, Positive: Mountains
     
+  - Used for terrain noise generation
+    ###### ``` setScale(value) ```<br>
+    value(float, 0 - +2 ?) = stretches the generation <br>
+    Lower value flats the terrain
+    
+  - Modifys color of grass/leaves and if Snowman's take dmg
+    ###### ``` setTemperature(value) ```<br>
+    value(float, 0-1.0) = Scale between cold(0) and warm(1)
