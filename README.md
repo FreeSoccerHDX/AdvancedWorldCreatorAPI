@@ -9,9 +9,9 @@ Note: You will only find set- or add-Methods here, but most of those Modificatio
   * Custom Dimension Settings (Fixedtime, Skylight, Dragonbattle, PiglinSafe,....)
   * Frequence of Structures (Village, Mansion, Fortress...)
   * Biome-Layouts:
-  * Overworld (All Overworld Biomes, but you can overwrite them)
-  * MultiNoise (Fully Customable Biomes to generate)
-  * CheckerBoard (Add as many Biomes as you want)
+   * Overworld (All Overworld Biomes, but you can overwrite them)
+   * MultiNoise (Fully Customable Biomes to generate)
+   * CheckerBoard (Add as many Biomes as you want)
 
 
 ## Planned Features:
