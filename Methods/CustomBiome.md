@@ -21,7 +21,7 @@ After adding your settings you have to register the Custom Biome to use it:
   - Adding Caves, filled with Air or Liquid to the Biome-Generation
     ###### ``` addWorldGenFeature(WorldGenStage.Features, WorldGenFeature) ```
     The first Argument can be Features.AIR or Features.LIQUID
-    The second Argument can be CAVE, CANYON, OCEAN_CAVE, UNDERWATER_CANYON, UNDERWATER_CAVE or NETHER_CAVE
+    The second Argument can be CAVE, CANYON, OCEAN_CAVE, UNDERWATER_CANYON, UNDERWATER_CAVE or NETHER_CAVE\ 
     **Note: Adding the same WorldGenFeature multiple times increases it spawn-chance**
 
   - Adding Structures to the Biome-Generation that spawn mostly random in the Biome
@@ -30,7 +30,7 @@ After adding your settings you have to register the Custom Biome to use it:
     It is used to determine where the Structure will spawn.
     The second Argument can be BiomeDecoratorGroups.ORE_DIAMOND ...
     There is almost every Structure listed that is used in Vanilla Generation 
-    **Note: Many Structures have requirements to work. For example:**\ 
+    **Note: Many Structures have requirements to work. For example:** 
       Ores(from Overworld) will need Stone to replace\ 
       Ores(from Nether) will need Netherrack to replace\ 
       Trees will only spawn on dirt, grass ...\ 
