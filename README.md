@@ -1,7 +1,7 @@
 # AdvancedWorldCreatorAPI
 Full-API for generating new Biomes, Features and more in Version 1.16
 
-##Features: 
+## Features: 
   * Custom Biomes (Colors, Sounds, Particles, Generation)
   * Worldgeneration (Overworld, Amplified, Nether, End, Caves, Floating Islands)
   * Custom Dimension Settings (Fixedtime, Skylight, Dragonbattle, PiglinSafe,....)
@@ -12,5 +12,5 @@ Full-API for generating new Biomes, Features and more in Version 1.16
   * CheckerBoard (Add as many Biomes as you want)
 
 
-##Planned Features:
+## Planned Features:
   * manipulating Structure Settings (Tree's with Ores as leaves...)
