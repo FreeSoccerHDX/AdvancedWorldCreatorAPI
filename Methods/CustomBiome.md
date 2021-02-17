@@ -57,4 +57,7 @@ After adding your settings you have to register the Custom Biome to use it:
   - Sets which Color Grass has in the Biome
     ###### ``` setGrassColor(java.awt.Color) ```
    
-  
+  - Sets what Particle is spawned randomly in the Air of the Biome
+    ###### ``` setBiomeParticles(Particles, Quantity) ```
+    The first Argument is class with ParticleType's <br>
+    For example: Particles.CLOUD or Particles.BUBBLE
