@@ -16,7 +16,13 @@ After adding your settings you have to register the Custom Biome to use it:
 ``` RegisteredCustomBiome rcb = AdvancedWorldCreatorAPI.registerCustomBiome(custombiome); ```
 
 ## Methods:
-  ``` addBiomeStructureFeature(BiomeStructureFeature) ```
-  
   - Adds a StrucutreFeature(Villages, Fortress, Nether-Fossil, Pyramid...) to the Biome-Generation
+    ``` addBiomeStructureFeature(BiomeStructureFeature) ```
   
+  - Adding Caves, filled with Air or Liquid to the Biome-Generation
+    ``` addWorldGenFeature(WorldGenStage.Features, WorldGenFeature) ```
+    The first Argument can be Features.AIR or Features.LIQUID
+    The second Argument can be CAVE, CANYON, OCEAN_CAVE, UNDERWATER_CANYON, UNDERWATER_CAVE or NETHER_CAVE
+    Note: Adding the same WorldGenFeature multiple times increases it spawn-chance
+
+  -
