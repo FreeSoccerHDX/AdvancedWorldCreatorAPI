@@ -6,4 +6,5 @@ You can also edit which Particles are spawned, which Sounds are used and what Co
 First you need to create an CustomBiome Object:
 ``` CustomBiome custombiome = new CustomBiome(BiomeName); ```
 The BiomeName is also displayed ingame when you press F3:
+
 ![alt text](https://timcloud.ddns.net/github/BiomeName.png)
