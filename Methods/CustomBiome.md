@@ -75,3 +75,10 @@ After adding your settings you have to register the Custom Biome to use it:
     The first Argument is a class with SoundEffect's you can use for it<br>
     tickchance(double, 0.0-1.0) = A chance for every tick (20 ticks = 1s) to play it
     
+  - Sets what Music is used randomly
+    ###### ``` setMusic(SoundEffects) ```<br>
+    The first Argument is a class with SoundEffect's you can use for it
+    
+  - Sets what Sound is used randomly (in caves)
+    ###### ``` setAmbientSound(SoundEffects) ```<br>
+    The first Argument is a class with SoundEffect's you can use for it  
