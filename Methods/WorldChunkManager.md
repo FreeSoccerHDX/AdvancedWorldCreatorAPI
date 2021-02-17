@@ -15,9 +15,16 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
      Usage Example:
      ```
     	DummyWorldChunkManagerCheckerBoard worldchunkmanager = new DummyWorldChunkManagerCheckerBoard.CREATOR(4)
-		.addBiome(rcb)
+		.addBiome(Biomes.DESERT)
 		.addBiome(Biomes.PLAINS)
 		.create();
           
       ```
       or longer:
+      ```
+    	DummyWorldChunkManagerCheckerBoard.CREATOR worldchunkmanager_creator = new DummyWorldChunkManagerCheckerBoard.CREATOR(4)
+		worldchunkmanager_creator.addBiome(Biomes.DESERT)
+		worldchunkmanager_creator.addBiome(Biomes.PLAINS)
+	DummyWorldChunkManagerCheckerBoard worldchunkmanager = worldchunkmanager.create();
+          
+      ```
