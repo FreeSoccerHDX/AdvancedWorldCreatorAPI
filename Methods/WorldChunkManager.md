@@ -25,6 +25,6 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
     	DummyWorldChunkManagerCheckerBoard.CREATOR worldchunkmanager_creator = new DummyWorldChunkManagerCheckerBoard.CREATOR(4/*the sqaure is how big one Chunk-Region is*/)
 		worldchunkmanager_creator.addBiome(Biomes.DESERT)
 		worldchunkmanager_creator.addBiome(Biomes.PLAINS)
-	        DummyWorldChunkManagerCheckerBoard worldchunkmanager = worldchunkmanager.create();
+	    DummyWorldChunkManagerCheckerBoard worldchunkmanager = worldchunkmanager.create();
           
       ```
