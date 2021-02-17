@@ -29,8 +29,8 @@ After adding your settings you have to register the Custom Biome to use it:
     The first Argument can be Decoration.SURFACE_STRUCTURES, Decoration.UNDERGROUND_ORES...
     It is used to determine where the Structure will spawn.
     The second Argument can be BiomeDecoratorGroups.ORE_DIAMOND ...
-    There is almost every Structure listed that is used in Vanilla Generation 
-    **Note: Many Structures have requirements to work. For example:** 
+    There is almost every Structure listed that is used in Vanilla Generation <br>
+    **Note: Many Structures have requirements to work. For example:** <br>
       Ores(from Overworld) will need Stone to replace <br>
       Ores(from Nether) will need Netherrack to replace <br>
       Trees will only spawn on dirt, grass ... <br>
