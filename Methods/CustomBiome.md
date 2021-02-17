@@ -5,14 +5,14 @@ You can also edit which Particles are spawned, which Sounds are used and what Co
 
 First you need to create an CustomBiome Object:
 
-######``` CustomBiome custombiome = new CustomBiome(BiomeName); ```\
+###### ``` CustomBiome custombiome = new CustomBiome(BiomeName); ```\
 The BiomeName is also displayed ingame when you press F3:
 
 ![alt text](https://timcloud.ddns.net/github/BiomeName.png)
 
 After adding your settings you have to register the Custom Biome to use it:
 
-######``` RegisteredCustomBiome rcb = AdvancedWorldCreatorAPI.registerCustomBiome(custombiome); ```
+###### ``` RegisteredCustomBiome rcb = AdvancedWorldCreatorAPI.registerCustomBiome(custombiome); ```
 
 ## Methods:
   - Adds a StrucutreFeature(Villages, Fortress, Nether-Fossil, Pyramid...) to the Biome-Generation
