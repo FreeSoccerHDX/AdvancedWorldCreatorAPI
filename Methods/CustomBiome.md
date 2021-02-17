@@ -1,6 +1,8 @@
 Custom Biomes can be created to spawn specific Mobs or generate special Strucutres. 
 You can also edit which Particles are spawned, which Sounds are used and what Colors are used.
 
+Most Information can be found here too: https://minecraft.gamepedia.com/Biome/JSON_format
+
 ##### Important: You need to rejoin after registration to the server **OR** register the Custom Biome on Server-Start. Otherwhise Particles, Sounds, Biome Name and Colors may not show to the player!
 
 First you need to create an CustomBiome Object:
@@ -94,4 +96,9 @@ After adding your settings you have to register the Custom Biome to use it:
   - Sets if water is Frozen or not
     ###### ``` setTemperatureModifier(TemperatureModifier) ```<br>
     TemperatureModifier.FROZEN or TemperatureModifier.NONE 
+    
+  - Used for terrain noise generation
+    ###### ``` setDepth(value) ```<br>
+    value(float, -2 - +2 ?) = how tall or flat the Biome is generated <br>
+    Negative: water, Positive: Mountains
     
