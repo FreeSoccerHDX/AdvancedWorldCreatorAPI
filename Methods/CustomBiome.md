@@ -58,6 +58,20 @@ After adding your settings you have to register the Custom Biome to use it:
     ###### ``` setGrassColor(java.awt.Color) ```
    
   - Sets what Particle is spawned randomly in the Air of the Biome
-    ###### ``` setBiomeParticles(Particles, Quantity) ```
-    The first Argument is class with ParticleType's <br>
-    For example: Particles.CLOUD or Particles.BUBBLE
+    ###### ``` setBiomeParticles(Particles, quantity) ```<br>
+    The first Argument is a class with ParticleType's <br>
+    For example: Particles.CLOUD or Particles.BUBBLE<br>
+    quantity(float, 0.0-1.0) = how many particles are spawned
+       
+  - Sets what Music starts playing near player
+    ###### ``` setCaveSoundSettings(SoundEffects, tickdelay, blockdistance, offset) ```<br>
+    The first Argument is a class with SoundEffect's you can use for it<br>
+    tickdelay(int) = how often it is playing (20 ticks = 1s, normally 6000 is used here)<br>
+    blockdistance(int) = in which range of blocks the sound can play<br>
+    offset(double) = used for how the sound sounds
+    
+  - Sets what Sound is playing near player
+    ###### ``` setCaveSound(SoundEffects, tickchance) ```<br>
+    The first Argument is a class with SoundEffect's you can use for it<br>
+    tickchance(double, 0.0-1.0) = A chance for every tick (20 ticks = 1s) to play it
+    
