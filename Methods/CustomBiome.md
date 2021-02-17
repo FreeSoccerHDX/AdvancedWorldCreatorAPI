@@ -11,6 +11,7 @@ The BiomeName is also displayed ingame when you press F3:
 ![alt text](https://timcloud.ddns.net/github/BiomeName.png)
 
 After adding your settings you have to register the Custom Biome to use it:
+
 ``` RegisteredCustomBiome rcb = AdvancedWorldCreatorAPI.registerCustomBiome(custombiome); ```
 
 ## Methods:
