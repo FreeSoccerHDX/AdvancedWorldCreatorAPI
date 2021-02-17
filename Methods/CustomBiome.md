@@ -110,3 +110,12 @@ After adding your settings you have to register the Custom Biome to use it:
   - Modifys color of grass/leaves and if Snowman's take dmg
     ###### ``` setTemperature(value) ```<br>
     value(float, 0-1.0) = Scale between cold(0) and warm(1)
+    
+  - Modifys color of grass/leaves and how fast Fire burns out
+    ###### ``` setDownfall(value) ```<br>
+    value(float, 0-1.0) = Scale between fast fire(0) and slow fire(1)
+    
+  - Modifys color of grass/leaves and how fast Fire burns out
+    ###### ``` setMobSpawnProbability(value) ```<br>
+    value(float, 0-1.0) = Scale between no mobs(0) and to many mobs(1)
+    
