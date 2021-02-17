@@ -25,7 +25,7 @@ After adding your settings you have to register the Custom Biome to use it:
     **Note: Adding the same WorldGenFeature multiple times increases it spawn-chance**
 
   - Adding Structures to the Biome-Generation that spawn mostly random in the Biome
-    ###### ``` cb.addWorldGenDecorationFeature(Decoration, BiomeDecoratorGroups) ```
+    ###### ``` addWorldGenDecorationFeature(Decoration, BiomeDecoratorGroups) ```
     The first Argument can be Decoration.SURFACE_STRUCTURES, Decoration.UNDERGROUND_ORES...
     It is used to determine where the Structure will spawn.
     The second Argument can be BiomeDecoratorGroups.ORE_DIAMOND ...
@@ -35,3 +35,8 @@ After adding your settings you have to register the Custom Biome to use it:
       Ores(from Nether) will need Netherrack to replace <br>
       Trees will only spawn on dirt, grass ... <br>
    
+  - Sets which Blocks are used to generate the Surface of the Biome
+    ###### ``` setSurfaceBuilder(SurfaceBuilder) ```
+    There are many SurfaceBuilders provided like SAND, END or just GRASS
+    
+    
