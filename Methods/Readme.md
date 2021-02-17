@@ -1,4 +1,4 @@
-# Creating a simple Custom World with a Custom Biome:
+## Creating a simple Custom World with a Custom Biome:
 
 ```
 CustomBiome cb = new CustomBiome("wonderland");
@@ -26,3 +26,9 @@ CustomDimensionSettings cds = new CustomDimensionSettings(OptionalLong.of(6000),
 World newworld = AdvancedWorldCreatorAPI.createWorld(ac, cds, dwcmcb);
 
 ```
+
+## The Result:
+
+![alt text](https://timcloud.ddns.net/github/example1.png)
+
+![alt text](https://timcloud.ddns.net/github/example2.png)
