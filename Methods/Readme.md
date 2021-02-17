@@ -13,16 +13,16 @@ ac.addStructureFeatureConfig(StructureGenerator.MINESHAFT, 1, 0);
 
 
 DummyWorldChunkManagerCheckerBoard dwcmcb = new DummyWorldChunkManagerCheckerBoard.CREATOR(2)
-			.addBiome(rcb)
-			.addBiome(Biomes.PLAINS)
-			.create();
+		.addBiome(rcb)
+		.addBiome(Biomes.PLAINS)
+		.create();
 
 
 CustomDimensionSettings cds = new CustomDimensionSettings(OptionalLong.of(6000), true, false,
-					true, true, 1.0, false, false, true, true, true,
-					256, TagsBlock.aG.a(), new MinecraftKey("minecraft","overworld"), 0.0F);
+		true, true, 1.0, false, false, true, true, true,
+		256, TagsBlock.aG.a(), new MinecraftKey("minecraft","overworld"), 0.0F);
 			
       
-AdvancedWorldCreatorAPI.createWorld(ac, cds, dwcmcb);
+World newworld = AdvancedWorldCreatorAPI.createWorld(ac, cds, dwcmcb);
 
 ```
