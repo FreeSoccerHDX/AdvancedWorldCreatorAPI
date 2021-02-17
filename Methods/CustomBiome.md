@@ -82,3 +82,16 @@ After adding your settings you have to register the Custom Biome to use it:
   - Sets what Sound is used randomly (in caves)
     ###### ``` setAmbientSound(SoundEffects) ```<br>
     The first Argument is a class with SoundEffect's you can use for it  
+    
+  - Sets in which Category this Biome is (no generation impact found)
+    ###### ``` setGeography(Geography) ```<br>
+    For example: Geography.DESERT
+  
+  - Sets if it can raining, snowing or nothing
+    ###### ``` setPrecipitation(Precipitation) ```<br>
+    For example: Precipitation.RAIN
+  
+  - Sets if water is Frozen or not
+    ###### ``` setTemperatureModifier(TemperatureModifier) ```<br>
+    TemperatureModifier.FROZEN or TemperatureModifier.NONE 
+    
