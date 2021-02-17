@@ -39,4 +39,22 @@ After adding your settings you have to register the Custom Biome to use it:
     ###### ``` setSurfaceBuilder(SurfaceBuilder) ```
     There are many SurfaceBuilders provided like SAND, END or just GRASS
     
+  - Sets which Color is seen far away when in the Biome
+    ###### ``` setFogColor(java.awt.Color) ```
     
+  - Sets which Color water has in this Biome
+    ###### ``` setWaterColor(java.awt.Color) ```
+   
+  - Sets which Color is seen far away under water in the Biome
+    ###### ``` setWaterFogColor(java.awt.Color) ```
+  
+  - Sets which Color the Sky has when in the Biome
+    ###### ``` setSkyColor(java.awt.Color) ```
+  
+  - Sets which Color Leaves, Vines etc. has in the Biome
+    ###### ``` setFoliageColor(java.awt.Color) ```
+   
+  - Sets which Color Grass has in the Biome
+    ###### ``` setGrassColor(java.awt.Color) ```
+   
+  
