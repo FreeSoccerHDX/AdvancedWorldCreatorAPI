@@ -17,16 +17,16 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
      Usage Example:
      ```
     	DummyWorldChunkManagerOverworld worldchunkmanager = new DummyWorldChunkManagerOverworld.CREATOR(seed)
-			.setBiomeSize(1)
-			.overwriteBiome(Biomes.PLAINS, RegisteredCustomBiome)
-			.create();
+		.setBiomeSize(1)
+		.overwriteBiome(Biomes.PLAINS, RegisteredCustomBiome)
+		.create();
           
       ```
       or longer:
       ```
     	DummyWorldChunkManagerOverworld.CREATOR worldchunkmanager_creator = new DummyWorldChunkManagerOverworld.CREATOR(seed);
-			worldchunkmanager_creator.setBiomeSize(1);
-			worldchunkmanager_creator.overwriteBiome(Biomes.PLAINS, RegisteredCustomBiome);
-			DummyWorldChunkManagerOverworld worldchunkmanager = worldchunkmanager_creator.create();
+		worldchunkmanager_creator.setBiomeSize(1);
+		worldchunkmanager_creator.overwriteBiome(Biomes.PLAINS, RegisteredCustomBiome);
+		DummyWorldChunkManagerOverworld worldchunkmanager = worldchunkmanager_creator.create();
           
       ```
