@@ -3,6 +3,7 @@ You can also edit which Particles are spawned, which Sounds are used and what Co
 
 Most Information can be found here too: https://minecraft.gamepedia.com/Biome/JSON_format
 
+
 ##### Important: You need to rejoin after registration to the server **OR** register the Custom Biome on Server-Start. Otherwhise Particles, Sounds, Biome Name and Colors may not show to the player!
 
 First you need to create an CustomBiome Object:
@@ -10,7 +11,8 @@ First you need to create an CustomBiome Object:
 ###### ``` CustomBiome custombiome = new CustomBiome(BiomeName); ```
 The BiomeName(lowercase) is also displayed ingame when you press F3:
 
-![alt text](https://timcloud.ddns.net/github/BiomeName.png)
+![alt text](https://timcloud.ddns.net/github/BiomeName.png) <br>
+(You can change the prefix "awc" with the Method: ```setPreKey(String)```, but it is limited to a-c and 0-9)
 
 After adding your settings you have to register the Custom Biome to use it:
 
