@@ -40,3 +40,7 @@ First you need to create an AdvancedCreator Object: <br>
      
    - Generates Strucutres(Village...) like Vanilla
      ###### ``` loadDefaultStructureFeatureConfig() ```<br>
+     
+   - Sets the World's Difficulty
+     ###### ``` setEnumDifficulty(EnumDifficulty) ```<br>
+     For Example: EnumDifficulty.EASY (Default)
