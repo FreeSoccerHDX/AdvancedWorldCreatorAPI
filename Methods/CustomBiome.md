@@ -12,7 +12,7 @@ First you need to create an CustomBiome Object:
 The BiomeName(lowercase) is also displayed ingame when you press F3:
 
 ![alt text](https://timcloud.ddns.net/github/BiomeName.png) <br>
-(You can change the prefix "awc" with the Method: ```setPreKey(String)```, but it is limited to a-c and 0-9)
+(You can change the prefix "awc" with the Method: ```setPreKey(String)```, but it is limited to a-z and 0-9)
 
 After adding your settings you have to register the Custom Biome to use it:
 
