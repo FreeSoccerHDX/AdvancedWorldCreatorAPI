@@ -4,6 +4,7 @@ The AdvancedCreator is very simple to use and controls:
   - Seed
   - Hardcoremode
   - Bedrock-Material
+  - and more...
   
 You will need the AdvancedCreator for creating a Custom World.
 
@@ -44,3 +45,9 @@ First you need to create an AdvancedCreator Object: <br>
    - Sets the World's Difficulty
      ###### ``` setEnumDifficulty(EnumDifficulty) ```<br>
      For Example: EnumDifficulty.EASY (Default)
+     
+   - Sets the Gamemode of Players in the World
+     ###### ``` setGameMode(EnumGamemode) ```<br>
+     For Example: EnumGamemode.SURVIVAL (Default)
+  
+  
