@@ -49,5 +49,13 @@ First you need to create an AdvancedCreator Object: <br>
    - Sets the Gamemode of Players in the World
      ###### ``` setGameMode(EnumGamemode) ```<br>
      For Example: EnumGamemode.SURVIVAL (Default)
+     
+   - Sets if Monsters can spawn
+      ###### ``` setAllowMonsters(boolean) ```<br>
+      Default: true
+      
+   - Sets if Animals can spawn
+      ###### ``` setAllowAnimals(boolean) ```<br>
+      Default: true
   
   
