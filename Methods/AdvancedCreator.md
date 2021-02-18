@@ -43,7 +43,7 @@ First you need to create an AdvancedCreator Object: <br>
      ###### ``` loadDefaultStructureFeatureConfig() ```<br>
      
    - Sets the World's Difficulty
-     ###### ``` setEnumDifficulty(EnumDifficulty) ```<br>
+     ###### ``` setDifficulty(EnumDifficulty) ```<br>
      For Example: EnumDifficulty.EASY (Default)
      
    - Sets the Gamemode of Players in the World
