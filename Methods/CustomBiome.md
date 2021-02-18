@@ -106,7 +106,7 @@ After adding your settings you have to register the Custom Biome to use it:
     
   - Used for terrain noise generation
     ###### ``` setScale(value) ```<br>
-    value(float, 0 - +2 ?) = stretches the generation <br>
+    value(float, > 0, < 0 equals flat Terrain at y:256) = stretches the generation <br>
     Lower value flats the terrain
     
   - Modifys color of grass/leaves and if Snowman's take dmg
