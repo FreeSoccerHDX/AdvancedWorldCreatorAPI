@@ -16,7 +16,6 @@ Note: You will only find set- or add-Methods here, but most of those Modificatio
 
 ## Planned Features:
   * manipulating Structure Settings (Tree's with Ores as leaves...)
-  * refresh Custom Biome settings
   * try to find a way to show custom biomes to players without rejoin
     (if you register custom biomes before players join it still works)
 
