@@ -17,7 +17,9 @@ The BiomeName(lowercase) is also displayed ingame when you press F3:
 After adding your settings you have to register the Custom Biome to use it:
 
 ###### ``` RegisteredCustomBiome rcb = AdvancedWorldCreatorAPI.registerCustomBiome(custombiome,replace); ```
-If replace is true you can change the CustomBiome-Settings and just run the registerCustomBiome again.
+If replace is true you can change the CustomBiome-Settings and just run the registerCustomBiome again. <br>
+Without the replace-Parameter it won't replace.
+
 
 ## Methods:
   - Adds a StrucutreFeature(Villages, Fortress, Nether-Fossil, Pyramid...) to the Biome-Generation
