@@ -32,6 +32,13 @@ Without the replace-Parameter it won't replace.
     **Note: Adding the same WorldGenFeature multiple times increases it spawn-chance**
 
   - Adding Structures to the Biome-Generation that spawn mostly random in the Biome
+    ###### ``` addWorldGenDecorationFeature(Decoration, CustomStructure) ```
+    The first Argument can be Decoration.SURFACE_STRUCTURES, Decoration.UNDERGROUND_ORES...
+    It is used to determine where the Structure will spawn. <br>
+    There are currently 1 CustomStructures available:
+      - [CustomOreStructure]
+    
+  - Adding Structures to the Biome-Generation that spawn mostly random in the Biome
     ###### ``` addWorldGenDecorationFeature(Decoration, BiomeDecoratorGroups) ```
     The first Argument can be Decoration.SURFACE_STRUCTURES, Decoration.UNDERGROUND_ORES...
     It is used to determine where the Structure will spawn.
@@ -124,3 +131,6 @@ Without the replace-Parameter it won't replace.
     ###### ``` setMobSpawnProbability(value) ```<br>
     value(float, 0-1.0) = Scale between no mobs(0) and to many mobs(1)
     
+    
+    
+[CustomOreStructure]: https://github.com/FreeSoccerHDX/AdvancedWorldCreatorAPI/blob/main/Methods/CustomStructures/CustomOreStructure.md
