@@ -35,7 +35,7 @@ Without the replace-Parameter it won't replace.
     ###### ``` addWorldGenDecorationFeature(Decoration, CustomStructure) ```
     The first Argument can be Decoration.SURFACE_STRUCTURES, Decoration.UNDERGROUND_ORES...
     It is used to determine where the Structure will spawn. <br>
-    The second Argument is for creating Custom Structures (special ores, trees...)
+    The second Argument is for creating Custom Structures (special ores, trees...). <br>
     There are currently 1 CustomStructures available:
       - [CustomOreStructure]
     
