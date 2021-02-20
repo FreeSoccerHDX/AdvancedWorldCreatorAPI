@@ -37,7 +37,12 @@ Now you can use it while creating a [CustomBiome] with the Method: <br>
       - NETHERRACK (Netherrack)
       - NETHER_ORE_REPLACEABLES (Netherrack, Basalt, Blackstone)
 
+### Example:
+Generates a Diamond-Block-Ore ~ 2 times per Chunk between y=20 and y=236 with a Size of ~ 100 and Targets Stone, Andesite, Diorite ...
+```
+CustomOreStructure cos = new CustomOreStructure("testore", 20, 20, 256, 100, 2, Blocks.DIAMOND_BLOCK, Blocks.STONE);
+cos.setVanillaReplaceRule(StructureRule.NATURAL_STONE);
+```
 
-  
 [CustomBiome]: https://github.com/FreeSoccerHDX/AdvancedWorldCreatorAPI/blob/main/Methods/CustomBiome.md
   
