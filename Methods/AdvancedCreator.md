@@ -57,5 +57,11 @@ First you need to create an AdvancedCreator Object: <br>
    - Sets if Animals can spawn
       ###### ``` setAllowAnimals(boolean) ```<br>
       Default: true
-  
-  
+      
+  - Sets if Decoration (Ores, Trees...) can generate
+      ###### ``` setGenerateDecoration(boolean) ```<br>
+      Default: true
+      
+  - Sets if Structures (Villages, Mansions...) can generate
+      ###### ``` setGenerateStructures(boolean) ```<br>
+      Default: true
