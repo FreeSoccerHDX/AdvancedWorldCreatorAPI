@@ -15,15 +15,15 @@ It allows you to set:
 
 /*
 Create a new CustomOreStructure:
-Name(Only a-c and 0-9 allowed) = How you wanne call the Structure (and register it to Minecraft)
-Bottom_Offset(Int) = How much blocks above 0 the Ore can spawn
-Top_Offset(Int) = How much blocks under #maxY the Ore can spawn
-maxY(Int) = The Range in which the Ore can spawn
--> bottom_offset=0 + top_offset=0 + maxY=256 allows the Ore to spawn on every Height
-OreSize(Int) = The maximum Size of the Ore (Iron, Gold have OreSize: 9)
-OresPerChunk(int) = How many times the Server will try to generate this Ore in a Chunk
-OreMaterial(Block) = What Type the Ore has (For example: Blocks.DIAMOND_BLOCK or Blocks.IRON_BLOCK)
-TargetMaterial(Block) = What Type the Ore can overwrite (For example: Blocks.STONE)
+Name(Only a-c and 0-9 allowed) = How you wanne call the Structure (and register it to Minecraft)<br>
+Bottom_Offset(Int) = How much blocks above 0 the Ore can spawn<br>
+Top_Offset(Int) = How much blocks under #maxY the Ore can spawn<br>
+maxY(Int) = The Range in which the Ore can spawn<br>
+-> bottom_offset=0 + top_offset=0 + maxY=256 allows the Ore to spawn on every Height<br>
+OreSize(Int) = The maximum Size of the Ore (Iron, Gold have OreSize: 9)<br>
+OresPerChunk(int) = How many times the Server will try to generate this Ore in a Chunk<br>
+OreMaterial(Block) = What Type the Ore has (For example: Blocks.DIAMOND_BLOCK or Blocks.IRON_BLOCK)<br>
+TargetMaterial(Block) = What Type the Ore can overwrite (For example: Blocks.STONE)<br>
 */
 CustomOreStructure customore = new CustomOreStructure(Name, Bottom_Offset, Top_Offset,
 			maxY, OreSize, OresPerChunk, OreMaterial, TargetMaterial);
