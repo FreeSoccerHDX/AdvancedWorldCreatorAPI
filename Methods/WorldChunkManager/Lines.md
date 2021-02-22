@@ -18,16 +18,16 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
      ```
      // size= how big the Biome-Area is, direction= in which direction the lines will repeat (default true=x-direction)
     	WorldChunkManagerLines worldchunkmanager = new WorldChunkManagerLines.CREATOR(size,direction)
-       .addBiome(Biomes.PLAINS)
-       .addBiome(Biomes.OCEAN)
-		.create();
+        .addBiome(Biomes.PLAINS)
+        .addBiome(Biomes.OCEAN)
+	.create();
           
       ```
       or longer:
       ```
     	WorldChunkManagerLines.CREATOR worldchunkmanager_creator = new WorldChunkManagerLines.CREATOR(size,direction);
-		worldchunkmanager_creator.addBiome(Biomes.PLAINS);
-      worldchunkmanager_creator.addBiome(Biomes.OCEAN);
-		WorldChunkManagerLines worldchunkmanager = worldchunkmanager_creator.create();
+	worldchunkmanager_creator.addBiome(Biomes.PLAINS);
+        worldchunkmanager_creator.addBiome(Biomes.OCEAN);
+	WorldChunkManagerLines worldchunkmanager = worldchunkmanager_creator.create();
           
       ```
