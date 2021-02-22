@@ -2,7 +2,7 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
 
 **Note: This is something you will need to generate your Custom World.
 
-## There are currently 3 different WorldChunkManager's - CREATOR:
+## With this WorldChunkManager you can create a World like the normal Overworld:
   - DummyWorldChunkManagerOverworld.CREATOR
     Methods:
       - ``` setBiomeSize(size) ```<br>
