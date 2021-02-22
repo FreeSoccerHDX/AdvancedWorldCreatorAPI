@@ -38,7 +38,7 @@ CustomForest custom_forest = new CustomForest(Name, custom_tree, default_amount,
 
 ```
 ## Extra-Methods of 'CustomForest':
-  - addTree(CustomTree, Chance)
+  - addTree(CustomTree, Chance) <br>
     You can add more Trees to your Forest that will generate with the specific Chance(0.0-1.0) <br>
     Note: All CustomTrees together should have a maximum chance of 1.0  <br> 
     The Default CustomTree of the Constructor will have the the left amount of Chance <br> 
