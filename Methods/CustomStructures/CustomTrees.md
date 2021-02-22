@@ -25,6 +25,33 @@ For example:
 CustomOakTreeStructure custom_tree = new CustomOakTreeStructure(Name); 
 
 ```
+## Methods for 'CustomTree':
+  - setLeaveRadius(Blocks) <br>
+    Radius of Leaves in X-/Z-Direction
+  - setLeaveOffset(Blocks) <br>
+    Blocks up or down to spawn Leaves
+  - setLeveHeight(Blocks) <br>
+    How many Blocks the Leaves will generate downwards
+  - setWoodHeight(Blocks) <br>
+    How many Logs will generate upwards
+  - setRandomWoodHeightA(Blocks) <br>
+    Random Number of how High the Logs can spawn
+  - setRandomWoodHeightB(Blocks) <br>
+    Random Number of how High the Logs can spawn
+ 
+ ## Extra-Methods for Jungle-Trees:
+  - setGenerateCocoa(should_generate) default=true
+  - setGenerateVinesOnLog(should_generate) default=true
+  - setGenerateVinesOnleaves(should_generate) default=true
+  
+ ## Extra-Methods for Spruce-Trees:
+  - setChangeGround(should_change, Block)
+    Block is what Material the Tree will generate below (Defualt: Podzol) <br>
+    You can set this to Blocks.DIAMOND_BLOCK or Blocks.STONE for example
+
+Note1: Not every CustomTree has all Methods (For example: Acacia has no Leave-Height) <br>
+Note2: Some Methods in CustomTree can have 2 Arguments <br>
+For example: MegaSpruceTree's Method 'setLeaveHeight' takes the Argument 'min': what's the lowest value and 'spread': which can increase the size
 
 If you just add the 'custom_tree' to your CustomBiome you will see that they will spawn once every Chunk at the same position.
 To avoid that you have to create a 'CustomForest' and add this to your CustomBiome
