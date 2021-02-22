@@ -20,14 +20,14 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
     	WorldChunkManagerLines worldchunkmanager = new WorldChunkManagerLines.CREATOR(size,direction)
         .addBiome(Biomes.PLAINS)
         .addBiome(Biomes.OCEAN)
-    	   .create();
+    	.create();
           
       ```
       or longer:
       ```
     	WorldChunkManagerLines.CREATOR worldchunkmanager_creator = new WorldChunkManagerLines.CREATOR(size,direction);
-	worldchunkmanager_creator.addBiome(Biomes.PLAINS);
+	    worldchunkmanager_creator.addBiome(Biomes.PLAINS);
         worldchunkmanager_creator.addBiome(Biomes.OCEAN);
-	WorldChunkManagerLines worldchunkmanager = worldchunkmanager_creator.create();
+	    WorldChunkManagerLines worldchunkmanager = worldchunkmanager_creator.create();
           
       ```
