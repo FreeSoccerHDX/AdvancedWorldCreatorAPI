@@ -2,7 +2,7 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
 
 **Note: This is something you will need to generate your Custom World.
 
-## There are currently 3 different WorldChunkManager's - CREATOR:
+## With this WorldChunkManager you can create a World with fully custom Biomes that generate and how big common they are:
   - DummyWorldChunkManagerMultiNoise.CREATOR
     Methods:
       - ``` addBiome(Biomes, temperature_noise, humidity, altitude, weirdness, offset) ```<br>
