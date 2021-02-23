@@ -44,6 +44,7 @@ advancedcreator.setCustomWorldGeneration(noisesettings, solid_material, fluid_ma
 Note: You will not find a Field for StructureSettings, but you can set them with the Method 'addStructureFeatureConfig' from the AdvancedCreator
 
 
+![alt text](https://timcloud.ddns.net/github/wg1.png)
+![alt text](https://timcloud.ddns.net/github/wg2.png)
 
-https://timcloud.ddns.net/github/wg1.png
 [Wiki-Page]: https://minecraft.gamepedia.com/Custom_world_generation#Noise_settings
