@@ -65,3 +65,10 @@ First you need to create an AdvancedCreator Object: <br>
   - Sets if Structures (Villages, Mansions...) can generate
       ###### ``` setGenerateStructures(boolean) ```<br>
       Default: true
+      
+  - Sets a Custom WorldGenerator (like Overworld, Amplified...)
+      ###### ``` setCustomWorldGeneration(noisesettings, solid_material, fluid_material, bedrock_roof_position, bedrock_floor_position, sea_level, disable_mob_generation) ```<br>
+      Check out the [CustomWorldGeneration] for more information.
+      
+      
+[CustomWorldGeneration]: https://github.com/FreeSoccerHDX/AdvancedWorldCreatorAPI/blob/main/Methods/CustomWorldGeneration.md
