@@ -13,8 +13,8 @@ Currently there are only 2 Methods you can use to import Datapack-Configurations
   // Prekey: default 'minecraft', but for Datapacks you have to use the Filename in the Datapack under "data"
   // Name: The Filename of the Biome (without .json)
   // For example: world\datapacks\MyDatapack\data\mydp\worldgen\biome\mycustom_datapack_biome.json
-  // 		Prekey: mydp
-	//    Name: mycustom_datapack_biome
+  // 	Prekey: mydp
+  //    Name: mycustom_datapack_biome
 
 ```
 
@@ -22,13 +22,13 @@ Currently there are only 2 Methods you can use to import Datapack-Configurations
 (Used in creation Process of a Custom Biome)
 ```
   WorldGenFeatureConfigured<?, ?> feature = AdvancedAdvancedWorldCreatorAPI.getDataPackFeatureResolver().getDatpackGenFeature(Prekey, Name);
-	// Prekey: default 'minecraft', but for Datapacks you have to use the Filename in the Datapack under "data"
+  // Prekey: default 'minecraft', but for Datapacks you have to use the Filename in the Datapack under "data"
   // Name: The Filename of the Feature (+Path starting from configured_feature) (without .json)
-	// For example: world\datapacks\MyDatapack\data\mydp\worldgen\configured_feature\mycustom_datapack_feature.json
-	// 		Prekey: mydp
-	//    Name: mycustom_datapack_feature
-	// For example: world\datapacks\MyDatapack\data\mydp\worldgen\configured_feature\between\mycustom_datapack_biome.json
-  // 		Prekey: mydp
-	//    Name: between/mycustom_datapack_feature
+  // For example: world\datapacks\MyDatapack\data\mydp\worldgen\configured_feature\mycustom_datapack_feature.json
+  // 	Prekey: mydp
+  //    Name: mycustom_datapack_feature
+  // For example: world\datapacks\MyDatapack\data\mydp\worldgen\configured_feature\between\mycustom_datapack_biome.json
+  // 	Prekey: mydp
+  //    Name: between/mycustom_datapack_feature
 ```
   
