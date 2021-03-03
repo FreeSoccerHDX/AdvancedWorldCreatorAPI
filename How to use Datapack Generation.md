@@ -1,6 +1,6 @@
 ## If you want to use Datapack's to generate a custom World you can use the following Methods to use them with the API.
 
-Currently there are only 2 Methods you can use to import Datapack-Configurations:
+Currently there are only 3 Methods you can use to import Datapack-Configurations:
   - Custom Biomes
   - World Generation Features-Configured
 
