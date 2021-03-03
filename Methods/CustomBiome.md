@@ -36,7 +36,8 @@ Without the replace-Parameter it won't replace.
     The first Argument can be Decoration.SURFACE_STRUCTURES, Decoration.UNDERGROUND_ORES...
     It is used to determine where the Structure will spawn. <br>
     The second Argument is for creating Custom Structures (special ores, trees...). <br>
-    There are currently 1 CustomStructures available:
+    There are currently 2 CustomStructures available:
+      - [CustomForest/CustomTree]
       - [CustomOreStructure]
     
   - Adding Structures to the Biome-Generation that spawn mostly random in the Biome
@@ -132,6 +133,21 @@ Without the replace-Parameter it won't replace.
     ###### ``` setMobSpawnProbability(value) ```<br>
     value(float, 0-1.0) = Scale between no mobs(0) and to many mobs(1)
     
+  - Adds a Mob to spawn in the Biome
+    ###### ``` addMobToBiome(EntityType, Weight, min, max) ```<br>
+    EntityType = Example: EntityType.PIG <br>
+    Weight(int, >0) = Higher Weight equals more spawning <br>
+    min(int, >0) = How many will spawn minimum <br>
+    max(int, >=min) = How many will spawn maximum
+  
+  - Set a Custom Defined Surface
+    ###### ``` setCustomSurfaceBuilder(SurfaceType,Blocks(surfce_block),Blocks(under_surface_block),Blocks(under_water_block)) ```<br>
+    SurfaceType = Setting how some Surfaces will generate (For exampple: SurfaceType.DEFAULT) <br>
+    Surface_Block = Which Block the first layer has (For exampple: Blocks.GRASS_BLOCK) <br>
+    Under_Surface_Block = Which Block the next 3 layer have (For exampple: Blocks.DIRT) <br>
+    Under_Water_Block = Which Block will generate (deep) under water (For exampple: Blocks.GRAVEL)
+    
     
     
 [CustomOreStructure]: https://github.com/FreeSoccerHDX/AdvancedWorldCreatorAPI/blob/main/Methods/CustomStructures/CustomOreStructure.md
+[CustomForest/CustomTree]: https://github.com/FreeSoccerHDX/AdvancedWorldCreatorAPI/blob/main/Methods/CustomStructures/CustomTrees.md
