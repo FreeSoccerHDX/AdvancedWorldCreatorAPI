@@ -27,8 +27,36 @@ Currently there are only 2 Methods you can use to import Datapack-Configurations
   // For example: world\datapacks\MyDatapack\data\mydp\worldgen\configured_feature\mycustom_datapack_feature.json
   // 	Prekey: mydp
   //    Name: mycustom_datapack_feature
-  // For example: world\datapacks\MyDatapack\data\mydp\worldgen\configured_feature\between\mycustom_datapack_biome.json
+  // For example: world\datapacks\MyDatapack\data\mydp\worldgen\configured_feature\between\mycustom_datapack_feature.json
   // 	Prekey: mydp
   //    Name: between/mycustom_datapack_feature
 ```
   
+
+### World Structure Features:
+(Used in creation Process of a Custom Biome)
+Notice: Those Structures can be new Villages, but you can only have one Village-Type in every Biome
+```
+  StructureFeature<?,?> structure = AdvancedAdvancedWorldCreatorAPI.getDataPackFeatureResolver().getDatapackStructureFeature(Prekey, Name);
+  // Prekey: default 'minecraft', but for Datapacks you have to use the Filename in the Datapack under "data"
+  // Name: The Filename of the Feature (+Path starting from configured_structure_feature) (without .json)
+  // For example: world\datapacks\MyDatapack\data\mydp\worldgen\configured_structure_feature\mycustom_datapack_structure.json
+  // 	Prekey: mydp
+  //    Name: mycustom_datapack_structure
+  // For example: world\datapacks\MyDatapack\data\mydp\worldgen\configured_structure_feature\between\mycustom_datapack_structure.json
+  // 	Prekey: mydp
+  //    Name: between/mycustom_datapack_structure
+```
+
+
+## Other Methods:
+``` 
+getListedStructureFeatures()
+getListedGenFeature()
+getListedBiomes()
+```
+They will return a List of MinecraftKey's, so for example you could add all listed GenFeatures with the MinecraftKey-Namespace as Prekey and the MinecraftKey-Key as Name. <br>
+### Notice: Not all Features are listed and sometimes new show up randomly without changing anything in the world. Those Methods are mostly useful when searching new Features.
+
+
+
