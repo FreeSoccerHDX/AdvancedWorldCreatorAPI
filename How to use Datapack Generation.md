@@ -17,6 +17,8 @@ Currently there are only 2 Methods you can use to import Datapack-Configurations
   //    Name: mycustom_datapack_biome
 
 ```
+Add the 'custom_biome' with the Method 'addBiome' WorldChunkManager-CREATOR
+
 
 ### World Generation Features-Configured:
 (Used in creation Process of a Custom Biome)
@@ -31,6 +33,7 @@ Currently there are only 2 Methods you can use to import Datapack-Configurations
   // 	Prekey: mydp
   //    Name: between/mycustom_datapack_feature
 ```
+Add the 'feature' with the Method 'addWorldGenDecorationFeature' of the CustomBiome
   
 
 ### World Structure Features:
@@ -47,6 +50,8 @@ Notice: Those Structures can be new Villages, but you can only have one Village-
   // 	Prekey: mydp
   //    Name: between/mycustom_datapack_structure
 ```
+Add the 'structure' with the Method 'addCustomWorldStructureFeature' of the CustomBiome
+
 
 
 ## Other Methods:
