@@ -1,6 +1,6 @@
 ## This Tutorial will show you how to create a default Overworld with no Custom Settings.
 
-### First we need the [dvancedCreator]:
+### First we need the [AdvancedCreator]:
 ```
 AdvancedCreator ac = new AdvancedCreator("myoverworld");
 // We use this Constructor to set the Worldname to 'myoverworld'
@@ -36,9 +36,9 @@ AdvancedWorldCreatorAPI.createWorld(ac, dm, obg);
 
 This will also return the World that got generated if successful
 ```
-https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3f/Beta.png/revision/latest?cb=20191215152001
 
+![alt text](https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3f/Beta.png/revision/latest?cb=20191215152001)
 
 [DimensionManager]: https://github.com/FreeSoccerHDX/AdvancedWorldCreatorAPI/blob/main/Methods/CustomDimensionSettings.md
 [BiomeGenerator]: https://github.com/FreeSoccerHDX/AdvancedWorldCreatorAPI/tree/main/Methods/BiomeGenerators
-[dvancedCreator]: https://github.com/FreeSoccerHDX/AdvancedWorldCreatorAPI/blob/main/Methods/AdvancedCreator.md
+[AdvancedCreator]: https://github.com/FreeSoccerHDX/AdvancedWorldCreatorAPI/blob/main/Methods/AdvancedCreator.md
