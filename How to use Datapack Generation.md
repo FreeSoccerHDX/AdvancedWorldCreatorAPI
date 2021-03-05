@@ -2,7 +2,7 @@
 
 #### Currently there are only 3 Methods you can use to import Datapack-Configurations:
 
-##### StructureFeatures: <br>
+##### * StructureFeatures: * <br>
   getStructureFeature(String prekey, String name) <br>
   Vanilla Examples: Stronghold, Fortress, Villages <br>
   Add to your Custom Biome with: 'addCustomWorldStructureFeature(StructureFeature)' <br>
