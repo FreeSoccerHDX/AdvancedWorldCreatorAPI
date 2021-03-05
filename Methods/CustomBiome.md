@@ -23,7 +23,7 @@ Without the replace-Parameter it won't replace.
 
 ## Methods:
   - Adds a StrucutreFeature(Villages, Fortress, Nether-Fossil, Pyramid...) to the Biome-Generation
-    ###### ``` addBiomeStructureFeature(BiomeStructureFeature) ```
+    ###### ``` addBiomeStructure(BiomeStructureFeature) ```
   
   - Adding Caves, filled with Air or Liquid to the Biome-Generation
     ###### ``` addWorldGenFeature(WorldGenStage.Features, WorldGenFeature) ```
