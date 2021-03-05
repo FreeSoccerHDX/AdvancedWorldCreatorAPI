@@ -29,6 +29,7 @@
   For example: world\datapacks\MyDatapack\data\custom_name\worldgen\biome\mycustom_datapack_biome.json <br>
          Prekey: custom_name <br>
          Name:   mycustom_datapack_biome <br>
+         
   If you have sub-folders in the specific folders you have to add them to the Name.
   For example: world\datapacks\MyDatapack\data\custom_name\worldgen\biome\sub_one_folder\mycustom_datapack_biome.json <br>
          Prekey: custom_name <br>
