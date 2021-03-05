@@ -2,6 +2,14 @@
 
 ### Currently there are only 3 Methods you can use to import Datapack-Configurations:
 
+Where to use those Methods:
+```
+DataPackResolver resolver = AdvancedWorldCreatorAPI.getDataPackResolver();
+resolver.getStructureFeature...
+resolver.getWorldGenFeature...
+resolver.getBiome...
+```
+
 #### StructureFeatures: <br>
   ```getStructureFeature(String prekey, String name)``` <br>
   Vanilla Examples: Stronghold, Fortress, Villages <br>
