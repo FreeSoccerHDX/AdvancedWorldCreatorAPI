@@ -1,20 +1,20 @@
 ## If you want to use Datapack's to generate a custom World you can use the following Methods to use them with the API.
 
-#### Currently there are only 3 Methods you can use to import Datapack-Configurations:
+### Currently there are only 3 Methods you can use to import Datapack-Configurations:
 
-##### * StructureFeatures: * <br>
+#### StructureFeatures: <br>
   getStructureFeature(String prekey, String name) <br>
   Vanilla Examples: Stronghold, Fortress, Villages <br>
   Add to your Custom Biome with: 'addCustomWorldStructureFeature(StructureFeature)' <br>
   
 
-##### WorldGenFeatures: <br>
+#### WorldGenFeatures: <br>
   getWorldGenFeature(String prekey, String name) <br>
   Vanilla Examples: Diamond-Ore, Jungle Tree, Flowers <br>
   Add to your Custom Biome with: 'addWorldGenDecorationFeature(WorldGenFeature)' <br>
   
 
-##### Biomes: <br>
+#### Biomes: <br>
   getBiome(String prekey, String name) <br>
   Vanilla Examples: Plains, Desert, Ocean <br>
   Add to your Biome Generator with: 'addBiome(Biome<,...>)' <br>
