@@ -15,6 +15,6 @@ Note: You will only find set- or add-Methods here, but most of those Modificatio
 
 
 ## Planned Features:
-  * (Nothing specific Planed currently)
+  * (Nothing specific Planed currently) <br>
 Check out the Spigot-Page https://www.spigotmc.org/resources/advancedworldcreatorapi.89100/ and suggest new Features
 
