@@ -1,9 +1,5 @@
-With the WorldChunkManager's you can set how the Biomes will generate in your custom World.
-
-**Note: This is something you will need to generate your Custom World.
-
-## With this WorldChunkManager you can create a World like the normal Overworld:
-  - DummyWorldChunkManagerOverworld.CREATOR
+## With this BiomeGenerator you can create a World like the normal Overworld:
+  - OverworldBiomeGenerator.CREATOR
     Methods:
       - ``` setBiomeSize(size) ```<br>
         How big the Biomes will generate
@@ -12,21 +8,21 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
         You can overwrite existing Biomes, but not add some
         
       - ``` create() ``` <br>
-        Used to create the real DummyWorldChunkManagerOverworld-Object <br>
+        Used to create the real OverworldBiomeGenerator-Object <br>
         
      Usage Example:
      ```
-    	DummyWorldChunkManagerOverworld worldchunkmanager = new DummyWorldChunkManagerOverworld.CREATOR(seed)
+    	OverworldBiomeGenerator worldchunkmanager = new OverworldBiomeGenerator.CREATOR(seed)
 		.setBiomeSize(1)
-		.overwriteBiome(Biomes.PLAINS, RegisteredCustomBiome)
+		.overwriteBiome(Biomes.PLAINS, <RegisteredCustomBiome>)
 		.create();
           
       ```
       or longer:
       ```
-    	DummyWorldChunkManagerOverworld.CREATOR worldchunkmanager_creator = new DummyWorldChunkManagerOverworld.CREATOR(seed);
-		worldchunkmanager_creator.setBiomeSize(1);
-		worldchunkmanager_creator.overwriteBiome(Biomes.PLAINS, RegisteredCustomBiome);
-		DummyWorldChunkManagerOverworld worldchunkmanager = worldchunkmanager_creator.create();
+    	OverworldBiomeGenerator.CREATOR biomegenerator_creator = new OverworldBiomeGenerator.CREATOR(seed);
+		biomegenerator_creator.setBiomeSize(1);
+		biomegenerator_creator.overwriteBiome(Biomes.PLAINS, <RegisteredCustomBiome>);
+		OverworldBiomeGenerator worldchunkmanager = biomegenerator_creator.create();
           
       ```
