@@ -21,6 +21,6 @@
     	CheckerBoardBiomeGenerator.CREATOR biomegenerator_creator = new CheckerBoardBiomeGenerator.CREATOR(4/*the sqaure is how big one Square is*/)
 		biomegenerator_creator.addBiome(Biomes.DESERT)
 		biomegenerator_creator.addBiome(Biomes.PLAINS)
-	    DummyWorldChunkManagerCheckerBoard biomegenerator = biomegenerator_creator.create();
+	    CheckerBoardBiomeGenerator biomegenerator = biomegenerator_creator.create();
           
       ```
