@@ -9,7 +9,12 @@ The AdvancedCreator is very simple to use and controls:
 You will need the AdvancedCreator for creating a Custom World.
 
 First you need to create an AdvancedCreator Object: <br>
-``` AdvancedCreator advancedcreator = new AdvancedCreator(Worldname, Seed); ```
+``` 
+AdvancedCreator advancedcreator = new AdvancedCreator(Worldname, Seed);
+or with random Seed:
+AdvancedCreator advancedcreator = new AdvancedCreator(Worldname);
+
+```
 
 ## Methods:
   - Adds which Structures can be generated in the World, and how often
