@@ -5,19 +5,19 @@
 #### StructureFeatures: <br>
   ```getStructureFeature(String prekey, String name)``` <br>
   Vanilla Examples: Stronghold, Fortress, Villages <br>
-  Add to your Custom Biome with: '```addCustomWorldStructureFeature(StructureFeature)```' <br>
+  Add to your Custom Biome with: ```addCustomWorldStructureFeature(StructureFeature)``` <br>
   
 
 #### WorldGenFeatures: <br>
   ```getWorldGenFeature(String prekey, String name)``` <br>
   Vanilla Examples: Diamond-Ore, Jungle Tree, Flowers <br>
-  Add to your Custom Biome with: '```addWorldGenDecorationFeature(WorldGenFeature)```' <br>
+  Add to your Custom Biome with: ```addWorldGenDecorationFeature(WorldGenFeature)``` <br>
   
 
 #### Biomes: <br>
   ```getBiome(String prekey, String name)``` <br>
   Vanilla Examples: Plains, Desert, Ocean <br>
-  Add to your Biome Generator with: '```addBiome(Biome<,...>)```' <br>
+  Add to your Biome Generator with: ```addBiome(Biome<,...>)``` <br>
 
 
 
