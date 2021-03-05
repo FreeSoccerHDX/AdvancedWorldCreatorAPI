@@ -1,9 +1,5 @@
-With the WorldChunkManager's you can set how the Biomes will generate in your custom World.
-
-**Note: This is something you will need to generate your Custom World.
-
-## With this WorldChunkManager you can create Biome-Lines that will repeat infinity:
-  - WorldChunkManagerLines.CREATOR
+## With this BiomeGenerator you can create Biome-Lines that will repeat infinity:
+  - LinesBiomeGenerator.CREATOR
     Methods:  
       - ``` addBiome(Biomes) ``` <br>
         ``` addBiome(RegisteredCustomBiome) ``` <br>
@@ -12,12 +8,12 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
         
         
       - ``` create() ``` <br>
-        Used to create the real WorldChunkManagerLines-Object <br>
+        Used to create the real LinesBiomeGenerator-Object <br>
         
      Usage Example:
      ```
      // size= how big the Biome-Area is, direction= in which direction the lines will repeat (default true=x-direction)
-    	WorldChunkManagerLines worldchunkmanager = new WorldChunkManagerLines.CREATOR(size,direction)
+    	LinesBiomeGenerator worldchunkmanager = new LinesBiomeGenerator.CREATOR(size,direction)
         .addBiome(Biomes.PLAINS)
         .addBiome(Biomes.OCEAN)
     	.create();
@@ -25,9 +21,9 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
       ```
       or longer:
       ```
-    	WorldChunkManagerLines.CREATOR worldchunkmanager_creator = new WorldChunkManagerLines.CREATOR(size,direction);
-	    worldchunkmanager_creator.addBiome(Biomes.PLAINS);
-        worldchunkmanager_creator.addBiome(Biomes.OCEAN);
-	    WorldChunkManagerLines worldchunkmanager = worldchunkmanager_creator.create();
+    	LinesBiomeGenerator.CREATOR biomegenerator_creator = new LinesBiomeGenerator.CREATOR(size,direction);
+	    biomegenerator_creator.addBiome(Biomes.PLAINS);
+        biomegenerator_creator.addBiome(Biomes.OCEAN);
+	    LinesBiomeGenerator worldchunkmanager = biomegenerator_creator.create();
           
       ```
