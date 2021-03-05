@@ -1,9 +1,5 @@
-With the WorldChunkManager's you can set how the Biomes will generate in your custom World.
-
-**Note: This is something you will need to generate your Custom World.
-
-## With this WorldChunkManager you can create Biome-Sqaures that will repeat:
-  - WorldChunkManagerSquares.CREATOR
+## With this BiomeGenerator you can create Biome-Sqaures that will repeat:
+  - SquaresBiomeGenerator.CREATOR
     Methods:  
       - ``` addBiome(Biomes) ``` <br>
         ``` addBiome(RegisteredCustomBiome) ``` <br>
@@ -12,12 +8,12 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
         
         
       - ``` create() ``` <br>
-        Used to create the real WorldChunkManagerSquares-Object <br>
+        Used to create the real SquaresBiomeGenerator-Object <br>
         
      Usage Example:
      ```
      // size= how big the Biome-Area is
-    	WorldChunkManagerSquares worldchunkmanager = new WorldChunkManagerSquares.CREATOR(size)
+    	SquaresBiomeGenerator worldchunkmanager = new SquaresBiomeGenerator.CREATOR(size)
         .addBiome(Biomes.PLAINS)
         .addBiome(Biomes.OCEAN)
     	.create();
@@ -25,9 +21,9 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
       ```
       or longer:
       ```
-    	WorldChunkManagerSquares.CREATOR worldchunkmanager_creator = new WorldChunkManagerSquares.CREATOR(size);
-	    worldchunkmanager_creator.addBiome(Biomes.PLAINS);
-        worldchunkmanager_creator.addBiome(Biomes.OCEAN);
-	    WorldChunkManagerSquares worldchunkmanager = worldchunkmanager_creator.create();
+    	SquaresBiomeGenerator.CREATOR biomegenerator_creator = new SquaresBiomeGenerator.CREATOR(size);
+	    biomegenerator_creator.addBiome(Biomes.PLAINS);
+        biomegenerator_creator.addBiome(Biomes.OCEAN);
+	    SquaresBiomeGenerator worldchunkmanager = biomegenerator_creator.create();
           
       ```
