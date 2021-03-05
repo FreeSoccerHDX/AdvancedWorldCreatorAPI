@@ -18,15 +18,15 @@
         
      Usage Example:
      ```
-MultiNoiseBiomeGenerator worldchunkmanager = new MultiNoiseBiomeGenerator.CREATOR(seed)
-.addBiome(Biomes.PLAINS, temperature_noise, humidity, altitude, weirdness, offset)
-.create();
+	MultiNoiseBiomeGenerator worldchunkmanager = new MultiNoiseBiomeGenerator.CREATOR(seed)
+	.addBiome(Biomes.PLAINS, temperature_noise, humidity, altitude, weirdness, offset)
+	.create();
           
       ```
       or longer:
       ```
-MultiNoiseBiomeGenerator.CREATOR biomegenerator_creator = new MultiNoiseBiomeGenerator.CREATOR(seed);
-biomegenerator_creator.addBiome(Biomes.PLAINS, temperature_noise, humidity, altitude, weirdness, offset);
-MultiNoiseBiomeGenerator worldchunkmanager = worldchunkmanager_creator.create();
+	MultiNoiseBiomeGenerator.CREATOR biomegenerator_creator = new MultiNoiseBiomeGenerator.CREATOR(seed);
+	biomegenerator_creator.addBiome(Biomes.PLAINS, temperature_noise, humidity, altitude, weirdness, offset);
+	MultiNoiseBiomeGenerator worldchunkmanager = worldchunkmanager_creator.create();
           
       ```
