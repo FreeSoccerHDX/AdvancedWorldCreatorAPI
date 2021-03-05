@@ -10,7 +10,7 @@
         weirdness(float, -2.0 - 2.0) = Defines how weird the biome is going to appear next to other biomes. <br>
         offset(float, 0.0 - 1.0) = Used to generate Biome-Edges, smaller Values => greater edge
 	
-        Look also here: https://minecraft.gamepedia.com/Custom#Generator_types <br>
+        Look also here: https://minecraft.gamepedia.com/Custom#Biome_parameter_defaults <br>
         Note: You have to add at least 1 Biome to work
         
       - ``` create() ``` <br>
