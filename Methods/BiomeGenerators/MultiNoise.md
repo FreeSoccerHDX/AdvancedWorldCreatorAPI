@@ -1,9 +1,5 @@
-With the WorldChunkManager's you can set how the Biomes will generate in your custom World.
-
-**Note: This is something you will need to generate your Custom World.
-
-## With this WorldChunkManager you can create a World with fully custom Biomes that generate and how big common they are:
-  - DummyWorldChunkManagerMultiNoise.CREATOR
+## With this BiomeGenerator you can create a World with fully custom Biomes that generate and how big common they are:
+  - MultiNoiseBiomeGenerator.CREATOR
     Methods:
       - ``` addBiome(Biomes, temperature_noise, humidity, altitude, weirdness, offset) ```<br>
       - ``` addBiome(RegisteredCustomBiome, temperature_noise, humidity, altitude, weirdness, offset) ```<br> 
@@ -18,19 +14,19 @@ With the WorldChunkManager's you can set how the Biomes will generate in your cu
         Note: You have to add at least 1 Biome to work
         
       - ``` create() ``` <br>
-        Used to create the real DummyWorldChunkManagerOverworld-Object <br>
+        Used to create the real MultiNoiseBiomeGenerator-Object <br>
         
      Usage Example:
      ```
-    	DummyWorldChunkManagerMultiNoise worldchunkmanager = new DummyWorldChunkManagerMultiNoise.CREATOR(seed)
+    	MultiNoiseBiomeGenerator worldchunkmanager = new MultiNoiseBiomeGenerator.CREATOR(seed)
 					.addBiome(Biomes.PLAINS, temperature_noise, humidity, altitude, weirdness, offset)
 					.create();
           
       ```
       or longer:
       ```
-    	DummyWorldChunkManagerMultiNoise.CREATOR worldchunkmanager_creator = new DummyWorldChunkManagerMultiNoise.CREATOR(seed);
-					worldchunkmanager_creator.addBiome(Biomes.PLAINS, temperature_noise, humidity, altitude, weirdness, offset);
-				DummyWorldChunkManagerMultiNoise worldchunkmanager = worldchunkmanager_creator.create();
+    	MultiNoiseBiomeGenerator.CREATOR biomegenerator_creator = new MultiNoiseBiomeGenerator.CREATOR(seed);
+					biomegenerator_creator.addBiome(Biomes.PLAINS, temperature_noise, humidity, altitude, weirdness, offset);
+				MultiNoiseBiomeGenerator worldchunkmanager = worldchunkmanager_creator.create();
           
       ```
