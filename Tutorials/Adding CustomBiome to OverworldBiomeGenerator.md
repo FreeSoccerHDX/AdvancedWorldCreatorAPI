@@ -10,9 +10,9 @@
   
 #### In the next Step we change some Colors for the Biome.
   ```
-      cb.setGrassColor(new Color(255,255,255));
-			cb.setFoliageColor(new Color(0,0,255));
-			cb.setWaterColor(new Color(255,0,0));
+        cb.setGrassColor(new Color(255,255,255));
+	cb.setFoliageColor(new Color(0,0,255));
+	cb.setWaterColor(new Color(255,0,0));
   ```
   This will set the Color of Grass to White, (Most)Leaves and Vines to Blue and the Water Color to Red.
   ![alt text](https://timcloud.ddns.net/github/tutorial_biomecolor.png)
@@ -20,14 +20,14 @@
   
 #### Without Mobs and Decoration the Biome seems to be Empty.
   ```
-      //Animals:
-      cb.addMobToBiome(EntityType.PIG, 100, 1, 50);
-			cb.addMobToBiome(EntityType.COW, 100, 1, 50);
-			cb.addMobToBiome(EntityType.SHEEP, 100, 1, 50);
-			cb.addMobToBiome(EntityType.CHICKEN, 100, 1, 50);
-			//Monsters:
-			cb.addMobToBiome(EntityType.WITHER_SKELETON, 100, 1, 10);
-			cb.addMobToBiome(EntityType.SHULKER, 100, 1, 10);
+     	//Animals:
+     	cb.addMobToBiome(EntityType.PIG, 100, 1, 50);
+	cb.addMobToBiome(EntityType.COW, 100, 1, 50);
+	cb.addMobToBiome(EntityType.SHEEP, 100, 1, 50);
+	cb.addMobToBiome(EntityType.CHICKEN, 100, 1, 50);
+	//Monsters:
+	cb.addMobToBiome(EntityType.WITHER_SKELETON, 100, 1, 10);
+	cb.addMobToBiome(EntityType.SHULKER, 100, 1, 10);
   ```
   This will allow Pigs, Cows, Sheeps and Chickens to spawn in Groups of 1 to 50,
   and also Wither Skeletons and Shulkers to spawn in Groups of 1 to 10.
@@ -36,13 +36,13 @@
   
   
   ```
-      cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FLOWER_FOREST);
-			cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FOREST_FLOWER_TREES);
+     	cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FLOWER_FOREST);
+	cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FOREST_FLOWER_TREES);
 			
-			cb.addWorldGenDecorationFeature(Decoration.UNDERGROUND_ORES, BiomeDecoratorGroups.ORE_COAL);
-			for(int i = 0; i < 100; i++) {
-				cb.addWorldGenDecorationFeature(Decoration.UNDERGROUND_ORES, BiomeDecoratorGroups.ORE_DIAMOND);
-			}
+	cb.addWorldGenDecorationFeature(Decoration.UNDERGROUND_ORES, BiomeDecoratorGroups.ORE_COAL);
+	for(int i = 0; i < 100; i++) {
+		cb.addWorldGenDecorationFeature(Decoration.UNDERGROUND_ORES, BiomeDecoratorGroups.ORE_DIAMOND);
+	}
   ```
   With the 1. Method we add many Flowers to the Vegetal Decoration of the Biome (Like the 'flower_forest'-Biome).
   The 2. Method will add some random Trees (Oak and Birch).
@@ -79,8 +79,8 @@
   #### Add to BiomeGenerator:
   ```
       OverworldBiomeGenerator obg = new OverworldBiomeGenerator.CREATOR(ac.getSeed())
-					.overwriteBiome(Biomes.PLAINS, rcb) // <<<<<<<<<<< HERE
-					.create();
+	.overwriteBiome(Biomes.PLAINS, rcb) // <<<<<<<<<<< HERE
+	.create();
   ```
   With that BiomeGenerator we replace the normal Plains-Biome with our CustomBiome.
   Note: Every BiomeGenerator works differently, the 'overwriteBiome' only Works for the OverworldBiomeGenerator.
@@ -91,44 +91,44 @@
   
   ### The full Code to create this World:
   ```
-      CustomBiome cb = new CustomBiome("not_minecraft", "not_plains");
-			cb.setGrassColor(new Color(255,255,255));
-			cb.setFoliageColor(new Color(0,0,255));
-			cb.setWaterColor(new Color(255,0,0));
-		
-			
-			cb.addMobToBiome(EntityType.PIG, 100, 1, 50);
-			cb.addMobToBiome(EntityType.COW, 100, 1, 50);
-			cb.addMobToBiome(EntityType.SHEEP, 100, 1, 50);
-			cb.addMobToBiome(EntityType.CHICKEN, 100, 1, 50);
-			
-			cb.addMobToBiome(EntityType.WITHER_SKELETON, 100, 1, 10);
-			cb.addMobToBiome(EntityType.SHULKER, 100, 1, 50);
-			
-			
-			cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FLOWER_FOREST);
-			cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FOREST_FLOWER_TREES);
-			
-			cb.addWorldGenDecorationFeature(Decoration.UNDERGROUND_ORES, BiomeDecoratorGroups.ORE_COAL);
-			for(int i = 0; i < 100; i++) {
-				cb.addWorldGenDecorationFeature(Decoration.UNDERGROUND_ORES, BiomeDecoratorGroups.ORE_DIAMOND);
-			}
+      	CustomBiome cb = new CustomBiome("not_minecraft", "not_plains");
+	cb.setGrassColor(new Color(255,255,255));
+	cb.setFoliageColor(new Color(0,0,255));
+	cb.setWaterColor(new Color(255,0,0));
 
-			cb.addWorldGenFeature(Features.AIR, WorldGenCarver.CAVE);
-			
-			cb.addBiomeStructure(BiomeStructure.VILLAGE_SNOWY);
-			
-			RegisteredCustomBiome rcb = AdvancedWorldCreatorAPI.registerCustomBiome(cb,true);
 
-			AdvancedCreator ac = new AdvancedCreator("myWorld");
+	cb.addMobToBiome(EntityType.PIG, 100, 1, 50);
+	cb.addMobToBiome(EntityType.COW, 100, 1, 50);
+	cb.addMobToBiome(EntityType.SHEEP, 100, 1, 50);
+	cb.addMobToBiome(EntityType.CHICKEN, 100, 1, 50);
+
+	cb.addMobToBiome(EntityType.WITHER_SKELETON, 100, 1, 10);
+	cb.addMobToBiome(EntityType.SHULKER, 100, 1, 50);
+
+
+	cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FLOWER_FOREST);
+	cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FOREST_FLOWER_TREES);
 			
-			OverworldBiomeGenerator obg = new OverworldBiomeGenerator.CREATOR(ac.getSeed())
-					.overwriteBiome(Biomes.PLAINS, rcb)
-					.create();
-			
-			DimensionManager dm = CustomDimensionSettings.getOverworldSettings();
-			
-			AdvancedWorldCreatorAPI.createWorld(ac, dm, obg);
+	cb.addWorldGenDecorationFeature(Decoration.UNDERGROUND_ORES, BiomeDecoratorGroups.ORE_COAL);
+	for(int i = 0; i < 100; i++) {
+		cb.addWorldGenDecorationFeature(Decoration.UNDERGROUND_ORES, BiomeDecoratorGroups.ORE_DIAMOND);
+	}
+
+	cb.addWorldGenFeature(Features.AIR, WorldGenCarver.CAVE);
+
+	cb.addBiomeStructure(BiomeStructure.VILLAGE_SNOWY);
+
+	RegisteredCustomBiome rcb = AdvancedWorldCreatorAPI.registerCustomBiome(cb,true);
+
+	AdvancedCreator ac = new AdvancedCreator("myWorld");
+
+	OverworldBiomeGenerator obg = new OverworldBiomeGenerator.CREATOR(ac.getSeed())
+			.overwriteBiome(Biomes.PLAINS, rcb)
+			.create();
+
+	DimensionManager dm = CustomDimensionSettings.getOverworldSettings();
+
+	AdvancedWorldCreatorAPI.createWorld(ac, dm, obg);
   ```
   
   
