@@ -10,7 +10,7 @@
   
 #### In the next Step we change some Colors for the Biome.
   ```
-        cb.setGrassColor(new Color(255,255,255));
+	cb.setGrassColor(new Color(255,255,255));
 	cb.setFoliageColor(new Color(0,0,255));
 	cb.setWaterColor(new Color(255,0,0));
   ```
