@@ -78,7 +78,7 @@
   
   #### Add to BiomeGenerator:
   ```
-      OverworldBiomeGenerator obg = new OverworldBiomeGenerator.CREATOR(ac.getSeed())
+	OverworldBiomeGenerator obg = new OverworldBiomeGenerator.CREATOR(ac.getSeed())
 	.overwriteBiome(Biomes.PLAINS, rcb) // <<<<<<<<<<< HERE
 	.create();
   ```
