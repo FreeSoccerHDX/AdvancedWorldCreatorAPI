@@ -58,7 +58,7 @@
   ```
       cb.addWorldGenFeature(Features.AIR, WorldGenCarver.CAVE);
   ```
-   This will spawn normal small tunnels to the Underground:
+   This will spawn normal small tunnels in the Underground:
    ![alt text](https://timcloud.ddns.net/github/tutorial_biomeunderground.png)
 
   
