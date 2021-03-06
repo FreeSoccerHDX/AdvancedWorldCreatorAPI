@@ -4,7 +4,7 @@
   ```
       CustomBiome cb = new CustomBiome("not_minecraft", "not_plains");
   ```
-  The 2 Arguments will set which Name the Player can see with F3, when he is in the Biome.
+  The 2. Arguments will set which Name the Player can see with F3, when he is in the Biome.
   ![alt text](https://timcloud.ddns.net/github/tutorial_biomename.png)
   
   
