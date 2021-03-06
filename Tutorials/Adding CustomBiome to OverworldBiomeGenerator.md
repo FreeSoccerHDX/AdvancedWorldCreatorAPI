@@ -20,8 +20,8 @@
   
 #### Without Mobs and Decoration the Biome seems to be Empty.
   ```
-     	//Animals:
-     	cb.addMobToBiome(EntityType.PIG, 100, 1, 50);
+	//Animals:
+	cb.addMobToBiome(EntityType.PIG, 100, 1, 50);
 	cb.addMobToBiome(EntityType.COW, 100, 1, 50);
 	cb.addMobToBiome(EntityType.SHEEP, 100, 1, 50);
 	cb.addMobToBiome(EntityType.CHICKEN, 100, 1, 50);
@@ -36,7 +36,7 @@
   
   
   ```
-     	cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FLOWER_FOREST);
+	cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FLOWER_FOREST);
 	cb.addWorldGenDecorationFeature(Decoration.VEGETAL_DECORATION, BiomeDecoratorGroups.FOREST_FLOWER_TREES);
 			
 	cb.addWorldGenDecorationFeature(Decoration.UNDERGROUND_ORES, BiomeDecoratorGroups.ORE_COAL);
@@ -91,7 +91,7 @@
   
   ### The full Code to create this World:
   ```
-      	CustomBiome cb = new CustomBiome("not_minecraft", "not_plains");
+	CustomBiome cb = new CustomBiome("not_minecraft", "not_plains");
 	cb.setGrassColor(new Color(255,255,255));
 	cb.setFoliageColor(new Color(0,0,255));
 	cb.setWaterColor(new Color(255,0,0));
