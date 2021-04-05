@@ -18,7 +18,8 @@ After adding your settings you have to register the Custom Biome to use it:
 
 ###### ``` RegisteredCustomBiome rcb = AdvancedWorldCreatorAPI.registerCustomBiome(custombiome,replace); ```
 If replace is true you can change the CustomBiome-Settings and just run the registerCustomBiome again. <br>
-Without the replace-Parameter it won't replace.
+Without the replace-Parameter it won't replace the Biome-Settings.
+!NOTE: Replacing the Biome Settings won't work every time. Only use this Feature during development!
 
 
 ## Methods:
