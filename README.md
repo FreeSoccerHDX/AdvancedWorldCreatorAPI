@@ -21,6 +21,6 @@ https://www.spigotmc.org/resources/advancedworldcreatorapi.89100/
 
 
 ## Planned Features:
-  * (Nothing specific Planed currently) <br>
+  * Overwriting Vanilla Biome-Settings <br>
 Check out the Spigot-Page https://www.spigotmc.org/resources/advancedworldcreatorapi.89100/ and suggest new Features
 
