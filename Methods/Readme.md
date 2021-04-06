@@ -2,7 +2,7 @@
 ```
 AdvancedWorldCreatorAPI.getAllVanillaBiomes()
 ```
-Idea behind this: If you want to replace settings in all Biomes you can itterate through this List and don't have to figure it out by yourself.
+Idea behind this: If you want to replace settings in all Biomes you can iterate through this List and don't have to figure it out by yourself.
 
 
 
