@@ -35,7 +35,8 @@ World newworld = AdvancedWorldCreatorAPI.createWorld(ac, cds, dwcmcb);
 
 ```
 
-## The Result:
+## The Result: 
+(after relogging to recive the new Biome-Settings)
 
 ![alt text](https://timcloud.ddns.net/github/example1.png)
 
