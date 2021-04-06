@@ -148,6 +148,22 @@ Without the replace-Parameter it won't replace the Biome-Settings.
     Under_Surface_Block = Which Block the next 3 layer have (For exampple: Blocks.DIRT) <br>
     Under_Water_Block = Which Block will generate (deep) under water (For exampple: Blocks.GRAVEL)
     
+  - Modifys this CustomBiome with settings from a Vanilla Biome
+    ###### ``` copyVanillaBiomeSettings(Biomes(Vanilla Biome), CloneOptions) ```<br>
+    Biomes = For example: Biomes.PLAINS or Biomes.DESERT (Settings will be cloned from this Biome)
+    CloneOptions = 
+        For example: CloneOptions options = new CloneOptions().COPY_ALL(true); // To clone all Settings of provided Vanilla Biome
+        or All Settings but not Mob-Settings: CloneOptions options = new CloneOptions().COPY_ALL(true).COPY_MOBSETTINGS(false);
+    This will clone any specific Setting of the Vanilla Biome to the CustomBiome
+    
+  - Modifys the settings of a Vanilla Biome (unless you overwrite it again OR stop/start the Server!)
+    ###### ``` overwriteVanillaBiomeSettings(Biomes(Vanilla Biome), CloneOptions) ```<br>
+    Biomes = For example: Biomes.PLAINS or Biomes.DESERT (The Biome you want to change)
+    CloneOptions = 
+        For example: CloneOptions options = new CloneOptions().COPY_ALL(true); // To overwrite all Settings of the Vanilla Biome
+        or All Settings but not Mob-Settings: CloneOptions options = new CloneOptions().COPY_ALL(true).COPY_MOBSETTINGS(false);
+    This will overwrite any specific Setting of the Vanilla Biome with the settings of the CustomBiome
+    
     
     
 [CustomOreStructure]: https://github.com/FreeSoccerHDX/AdvancedWorldCreatorAPI/blob/main/Methods/CustomStructures/CustomOreStructure.md
