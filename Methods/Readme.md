@@ -1,3 +1,11 @@
+## List of all Vanilla Biomes:
+```
+AdvancedWorldCreatorAPI.getAllVanillaBiomes()
+```
+Idea behind this: If you want to replace settings in all Biomes you can itterate through this List and don't have to figure it out by yourself.
+
+
+
 ## Creating a simple Custom World with a Custom Biome:
 
 ```
