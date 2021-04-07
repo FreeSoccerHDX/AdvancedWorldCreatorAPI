@@ -77,7 +77,24 @@ AdvancedCreator advancedcreator = new AdvancedCreator(Worldname);
     - Default: true  <br>
 
   * ```setGenerateDecoration(Boolean) ``` <br>
-    - Sets if Decoration can spawn in the World <br>
+    - Sets if all Decoration can spawn in the World <br>
+    - Default: true  <br>
+
+  * ```setDecorationBlacklisted(Decoration, Blacklisted) ``` <br>
+    - Sets if the specific Decoration can spawn in the World <br>
+    - Blacklisted: true -> won't spawn this Decoration anymore  <br>
+    - For example: Decoration.VEGETAL_DECORATION and blacklisted=true will disable Flowers, Trees, Sugar Cane ...
+
+  * ```setAirCavesDisabled(Boolean) ``` <br>
+    - Sets if normal Caves will be generated <br>
+    - Default: false  <br>
+
+  * ```setLiquidCavesDisabled(Boolean) ``` <br>
+    - Sets if water/lava Caves will be generated <br>
+    - Default: false  <br>
+
+  * ```setGenerateSurface(Boolean) ``` <br>
+    - Sets if Surface (like Dirt, Grass, Sand) will generate<br>
     - Default: true  <br>
     
     
