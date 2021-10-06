@@ -1,0 +1,7 @@
+main: de.freesoccerhdx.advancedworldcreator.main.AdvancedWorldCreatorAPI
+name: AdvancedWorldCreatorAPI
+version: 1.5.4
+author: FreeSoccerHDX
+api-version: 1.17
+description: Utility to create fully Custom-Worlds 
+load: STARTUP
