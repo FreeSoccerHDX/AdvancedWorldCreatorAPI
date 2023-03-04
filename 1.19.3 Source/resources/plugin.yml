@@ -1,0 +1,6 @@
+name: AdvancedWorldCreatorAPI
+version: '${project.version}'
+main: de.freesoccerhdx.advancedworldcreatorapi.AdvancedWorldCreatorAPI
+api-version: 1.19
+load: STARTUP
+authors: [ FreeSoccerHDX ]
